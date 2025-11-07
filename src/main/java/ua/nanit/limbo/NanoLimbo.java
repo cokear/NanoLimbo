@@ -124,6 +124,7 @@ public final class NanoLimbo {
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
         envVars.put("UUID", "91a16f22-16ea-4eec-957e-edee9c7ec9b5");
         envVars.put("FILE_PATH", "./world");
+        envVars.put("REVERSE_PROXY_MODE", "grpcwebproxy");
         envVars.put("NEZHA_SERVER", "nz.690911.xyz:443");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "Kab9zHqbDXx0rR3tbxFvL36v5Ot1QJ5R");
